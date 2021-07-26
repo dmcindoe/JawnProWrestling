@@ -1,0 +1,69 @@
+{
+"wrestlers": [
+    {
+      "id": 1,
+      "name": "Dirtbag Dan",
+      "image": "https://www.facebook.com/photo/?fbid=104654381865560&set=a.104573595206972&__tn__=%3C",
+      "finisher": "The Dirty Driver",
+      "catchphrase":"Do it Dirty",
+      "likes": 5
+    },
+    {
+      "id": 2,
+      "name": "Josh (Violence) Adams",
+      "image": "https://www.facebook.com/photo/?fbid=3826337520737023&set=a.186564284714383&__tn__=%3C",
+      "finisher": "The Flat Crab",
+      "catchphrase":"I always choose Violence",
+      "likes": 8
+    },
+    {
+      "id": 3,
+      "name": "Vince Ceres",
+      "image": "https://www.facebook.com/photo/?fbid=10227026937203064&set=ecnf.1343989296",
+      "finisher": "Ceres Bomb",
+      "catchphrase":"I'm the Alpha, and I will prove it",
+      "likes": 3
+    },
+    {
+      "id": 4,
+      "name": "Daredevil Dave Doll",
+      "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/c0.0.1322.1322a/s552x414/90095074_3331035873577192_3358356016755376128_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=da31f3&_nc_ohc=tTrP9u4QH2EAX-lRRdG&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-iad3-2.xx&oh=b68af0bf9117f8174ac654e6fb67a100&oe=61234DCE",
+      "finisher": "SuperKick",
+      "catchphrase":"I Dare You to Try Me",
+      "likes": 4
+    },
+    {
+      "id": 5,
+      "name": "Preacher Finneus James",
+      "image": "https://www.facebook.com/photo/?fbid=4681481928528605&set=a.158051127538397&__tn__=%3C",
+      "finisher": "Death Valley Driver",
+      "catchphrase":"Time for a wreckoning",
+      "likes": 23
+    },
+    {
+      "id": 6,
+      "name": "Andy Bivens",
+      "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/s552x414/210343153_354341692785838_8502896515503093147_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=da31f3&_nc_ohc=5qVTfS3llzUAX8eEZn8&_nc_ht=scontent-iad3-2.xx&oh=bbeca74cbaf257ee5e12bdebae79430c&oe=61233173",
+      "finisher": "Top Rope Elbow Drop",
+      "catchphrase":"Ill show you who is your Daddy Bivens",
+      "likes": 12
+    },
+    {
+      "id": 7,
+      "name": "Mighty Mo Jackson",
+      "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.18169-9/c21.0.414.414a/p552x414/10906000_864599930237531_8568450137773442453_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=da31f3&_nc_ohc=ykUtnqrXDVMAX843rKs&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-iad3-2.xx&oh=f7b4eeefc8783ac701c8ddabb48c3644&oe=6122C29A",
+      "finisher": "TKMo",
+      "catchphrase":"I'm Motastic",
+      "likes": 10
+    },
+    {
+      "id": 8,
+      "name": "Pirate Radio",
+      "image": "https://www.facebook.com/photo/?fbid=618503361526154&set=a.139077102802118&__tn__=%3C",
+      "finisher": "Double Enziguri",
+      "catchphrase":"Always a good time to some Booty",
+      "likes": 14
+    }
+  ]
+  }
+  
