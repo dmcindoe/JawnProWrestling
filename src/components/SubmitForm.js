@@ -30,7 +30,7 @@ const handleSubmit = (event) => {
     likes: 0
     }
 
-  fetch("http://localhost:3001/wrestlers", {
+  fetch("http://localhost:4000/wrestlers", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -34,7 +34,7 @@ function Navbar() {
         About
       </NavLink>
       <NavLink
-        to="/UpcommingShows"
+        to="/Shows"
         exact
         style={linkStyles}
         activeStyle={{
@@ -47,4 +47,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar

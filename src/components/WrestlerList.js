@@ -1,5 +1,6 @@
 import React from "react"
 import WrestlerCard from "./WrestlerCard"
+import { Card } from "semantic-ui-react"
 
 const WrestlerList = ({wrestler}) => {
   const wrestlerCards = wrestler.map((worker) => (
@@ -11,6 +12,10 @@ const WrestlerList = ({wrestler}) => {
     </div>
 ))
 
-return <div id="worker-collection">{wrestlerCards}</div>;
+return ( 
+  <Card.Group itemsPerRow={4}>
+    {wrestlerCards}
+  </Card.Group>
+)
   }
 export default WrestlerList

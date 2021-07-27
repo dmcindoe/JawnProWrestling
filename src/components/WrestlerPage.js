@@ -7,7 +7,7 @@ const WrestlerPage = () => {
   const [workerObj, setWorkerObj] = useState([])
 
   useEffect (() => {
-    fetch("http://localhost:3001/wrestlers")
+    fetch("http://localhost:4000/wrestlers")
     .then(r => r.json())
     .then(data => setWorkerObj(data)) 
   }, [])
