@@ -9,7 +9,7 @@ import { Route, Switch } from "react-router-dom"
 const App = () => {
 
   return (
-    <div>
+    <div className="App">
     <Navbar />
     <Switch>
       <Route exact path="/About">

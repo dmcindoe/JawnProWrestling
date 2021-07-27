@@ -6,6 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  text-align: center;
+}
+
+.App-WrestlingList{
+  
+}
+
+body{
+  background-image: url(https://media.istockphoto.com/photos/professional-boxing-ring-picture-id1005889814?k=6&m=1005889814&s=612x612&w=0&h=FaCAJQEWjU1CQmIgMHJH92iwZ9ZFZ0KzvSw-zc7UvcM=);
+  height: 2000px;
+  width: 1200px;
+  background-position: center;
+  background-repeat:repeat-y;
+  background-size: cover;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

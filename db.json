@@ -22,7 +22,7 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/213295068_10227010312907467_3874318461910325272_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_ohc=IelSFYGsmlwAX9D95Ku&_nc_ht=scontent-lga3-1.xx&oh=a8325e3e09e37488481f0b2e4c20f1eb&oe=61048F36",
       "finisher": "Ceres Bomb",
       "catchphrase": "I'm the Alpha, and I will prove it",
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/s552x414/210343153_354341692785838_8502896515503093147_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=da31f3&_nc_ohc=5qVTfS3llzUAX8eEZn8&_nc_ht=scontent-iad3-2.xx&oh=bbeca74cbaf257ee5e12bdebae79430c&oe=61233173",
       "finisher": "Top Rope Elbow Drop",
       "catchphrase": "Ill show you who is your Daddy Bivens",
-      "likes": 12
+      "likes": 13
     },
     {
       "id": 7,
@@ -62,15 +62,15 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/733855_526322830744208_2019919256_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=t0F7g8sM2VkAX-VTuIs&_nc_oc=AQld0WFg9E5NElbyPfJv861pOO_QrKz0W2IU0MNlqZOgArmo5H515HhaGEIVgF86gxBIMC7cOL8VwUmVWcpMtiKq&_nc_ht=scontent-lga3-1.xx&oh=3c1aa93958e56bb0c5ac50d95c9244c6&oe=6127006B",
       "finisher": "Double Enziguri",
       "catchphrase": "Always a good time to some Booty",
-      "likes": 14
+      "likes": 15
     },
     {
       "id": 9,
       "name": "RV1",
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/432237_2401751382762_850555302_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=d1b5-yko8CAAX9L6Mh4&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-lga3-1.xx&oh=ba87f12c4e6c4bba7c17cd4440460336&oe=6123BE48",
       "finisher": "Shooting Star Press",
-      "catchphrase": "Aim to for be RV1",
-      "likes": 0
+      "catchphrase": "Aim to for the sky, and be like RV1",
+      "likes": 20
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/218563344_204104485055352_3552000797221577129_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=W_Sx6p1bd_IAX_xLlZ8&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-lga3-1.xx&oh=8d0ee3891aa791d2a87770c3fabd2b37&oe=6104C02E",
       "finisher": "Tiger Driver 89",
       "catchphrase": "I'm a Tiger, and a Moose",
-      "likes": 0
+      "likes": 34
     }
   ]
 }

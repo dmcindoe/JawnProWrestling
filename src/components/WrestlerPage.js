@@ -15,12 +15,21 @@ const WrestlerPage = () => {
   const handleAddWorker = (newWorker) => {
     setWorkerObj([...workerObj, newWorker])
   }
+  
+  const handleUpdateLikeButton = (updatedLike) => {
+    const UpdatedWorkers = workerObj.map((worker) =>
+      worker.id === updatedLike.id ? updatedLike : worker
+    );
+      setWorkerObj(UpdatedWorkers);
+  }
 
+  
 return (
   <div>
     <h1> Jawn Pro Wrestling</h1>
     <WrestlerList 
     wrestler={workerObj}
+    onUpdateLikeButton={handleUpdateLikeButton}
     />
     <SubmitForm 
       onAddWorker={handleAddWorker}
