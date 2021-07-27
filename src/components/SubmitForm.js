@@ -39,7 +39,16 @@ const handleSubmit = (event) => {
     body: JSON.stringify(newWorker)
   })
       .then (r => r.json())
-      .then(onAddWorker)
+       .then(data => {
+        onAddWorker(data)
+        setFormData({
+          id:"",
+          name: "",
+          image: "",
+          finisher: "",
+          catchphrase: "",
+        })
+      })
 }
 
 
@@ -50,31 +59,31 @@ const handleSubmit = (event) => {
         onSubmit={handleSubmit}
       >
         <Form.Group widths="equal">
-          <Form.Input fluid label="Name" placeholder="Name" name="name" 
+          <Form.Input 
+          fluid label="Name" 
+          placeholder="Name" 
+          name="name" 
           onChange={handleChange}
           value={formData.name}
           />
           <Form.Input
-            fluid
-            label="Image URL"
-            placeholder="image url"
-            name="Image Url"
+            fluid label="Image URL"
+            placeholder="Image URL"
+            name="image"
             onChange={handleChange}
             value={formData.image}
           />
-              <Form.Input
-            fluid
-            label="finisher"
+          <Form.Input
+            fluid label="Finisher"
             placeholder="Finisher"
-            name="Finisher"
+            name="finisher"
             onChange={handleChange}
             value={formData.finisher}
           />
-              <Form.Input
-            fluid
-            label="catchphrase"
-            placeholder="catchphrase"
-            name="CatchPhrase"
+          <Form.Input
+            fluid label="Catchphrase"
+            placeholder="Catchphrase"
+            name="catchphrase"
             onChange={handleChange}
             value={formData.catchphrase}
           />

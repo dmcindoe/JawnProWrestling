@@ -5,7 +5,6 @@ const WrestlerCard = ({wrestler}) => {
   const {name, image, finisher, catchphrase, likes} = wrestler
 
     return (
-      // <h4>Hello</h4>
       <Card>
         <div>
           <div className="image">
@@ -16,11 +15,13 @@ const WrestlerCard = ({wrestler}) => {
           </div>
           <div className="extra content">
             <span>
-              <i className="icon">GiBoxingRing {likes}</i> 
+              <button className="icon">Likes {likes}</button> 
              <p>
               Finsher: {finisher}
-              Catch Phrase: {catchphrase}
              </p>
+             <p>  
+               Catch Phrase: {catchphrase} 
+            </p>
             </span>
           </div>
         </div>

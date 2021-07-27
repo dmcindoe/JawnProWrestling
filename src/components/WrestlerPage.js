@@ -13,13 +13,15 @@ const WrestlerPage = () => {
   }, [])
 
   const handleAddWorker = (newWorker) => {
-    setWorkerObj([...workerObj, newWorker]);
+    setWorkerObj([...workerObj, newWorker])
   }
 
 return (
   <div>
     <h1> Jawn Pro Wrestling</h1>
-    <WrestlerList />
+    <WrestlerList 
+    wrestler={workerObj}
+    />
     <SubmitForm 
       onAddWorker={handleAddWorker}
       />
