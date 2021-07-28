@@ -15,26 +15,6 @@ function Navbar() {
   return (
     <div>
       <NavLink
-        to="/WrestlerPage"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >
-        Home
-      </NavLink>
-      <NavLink
-        to="/about"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkblue",
-        }}
-      >
-        About
-      </NavLink>
-      <NavLink
         to="/Shows"
         exact
         style={linkStyles}
@@ -42,7 +22,27 @@ function Navbar() {
           background: "darkblue",
         }}
       >
-        Up and Comming Shows
+       Home and Up and Comming Shows
+      </NavLink>
+      <NavLink
+        to="/WrestlerPage"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+       Tomorrow's Stars
+      </NavLink>
+      <NavLink
+        to="/SponsorPage"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        SponsorPage
       </NavLink>
     </div>
   );

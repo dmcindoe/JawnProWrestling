@@ -1,6 +1,7 @@
 import React from "react"
 import { Card } from "semantic-ui-react"
 
+
 const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
   const {id, name, image, finisher, catchphrase, likes} = wrestler
 
@@ -22,14 +23,14 @@ const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
 
     return (
       <Card>
-        <div className="content">
+        <div className="Card">
           <div className="image">
-            <img src={image} alt={name} width="193" height="130" />
+            <img src={image} alt={name} className="WorkerIcon" />
           </div>
           <div>
             <div className="header">{name}</div>
           </div>
-          <div className="extra content">
+          <div className="extra-content">
             <span>
               <button className="icon" onClick={handleLikeClick}> 
                 Likes {likes}
@@ -44,7 +45,6 @@ const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
           </div>
         </div>
       </Card>
-  
   )
 }
 

@@ -4,7 +4,7 @@ import { Card } from "semantic-ui-react"
 
 const WrestlerList = ({wrestler, onUpdateLikeButton}) => {
   const wrestlerCards = wrestler.map((worker) => (
-    <div>
+    <div className="NewTalentCards">
         <WrestlerCard variant="outlined"
        key={worker.id}
        wrestler={worker}
@@ -13,10 +13,10 @@ const WrestlerList = ({wrestler, onUpdateLikeButton}) => {
     </div>
 ))
 
-return ( 
-  <Card.Group itemsPerRow={4} itemsPerColumn={4}>
+return (
+  <Card.Group itemsPerRow={4}>
     {wrestlerCards}
   </Card.Group>
-)
-  }
+        )}
+  
 export default WrestlerList

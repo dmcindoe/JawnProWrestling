@@ -1,7 +1,7 @@
 import React from "react"
 import WrestlerPage from "./components/WrestlerPage"
 import Navbar from "./components/Navbar"
-import About from "./components/About"
+import SponsorPage from "./components/SponsorPage"
 import Shows from "./components/Shows"
 import { Route, Switch } from "react-router-dom"
 
@@ -12,8 +12,8 @@ const App = () => {
     <div className="App">
     <Navbar />
     <Switch>
-      <Route exact path="/About">
-        <About />
+      <Route exact path="/SponsorPage">
+        <SponsorPage />
       </Route>
       <Route exact path="/Shows">
         <Shows />

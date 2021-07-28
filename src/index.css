@@ -1,20 +1,14 @@
-body {
+.App {
+  text-align: center;
+}
+
+body{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.App {
-  text-align: center;
-}
-
-.App-WrestlingList{
-  
-}
-
-body{
   background-image: url(https://media.istockphoto.com/photos/professional-boxing-ring-picture-id1005889814?k=6&m=1005889814&s=612x612&w=0&h=FaCAJQEWjU1CQmIgMHJH92iwZ9ZFZ0KzvSw-zc7UvcM=);
   height: 2000px;
   width: 1200px;
@@ -23,7 +17,51 @@ body{
   background-size: cover;
   }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.WorkerIcon {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+.SubmitWorker{
+  background-image: url(https://images.unsplash.com/photo-1564585222527-c2777a5bc6cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+  justify-self: center;
+  width: 1000px;
+  color: rgb(0, 255, 68);
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+
+.SubmitHeader{
+  font-size: x-large;
+  font-family: fantasy;
+}
+.Card {
+  background-color: azure;
+  text-align: center;
+  border: black solid 2px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #06aa5d;
+  }
+
+.NewTalentCards{
+  grid-template-columns: repeat(3, 1fr) ;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  gap:20px;
+  font-family: sans-serif;
 }

@@ -53,8 +53,8 @@ const handleSubmit = (event) => {
 
 
   return (
-    <div>
-      <h3>Submit to work for the Jawn</h3>
+    <div className="SubmitWorker">
+      <h3 className="SubmitHeader">Submit to work for the Jawn, and Let the Fan's Vote</h3>
       <Form
         onSubmit={handleSubmit}
       >
