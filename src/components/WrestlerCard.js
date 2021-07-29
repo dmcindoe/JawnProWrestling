@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "semantic-ui-react"
+
 
 
 const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
@@ -22,13 +22,15 @@ const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
   }
 
     return (
-      <Card>
+      <div className="soloCard"
+      highlight={
+        { position: 'side', color: 'lightgreen',}}>
         <div className="Card">
           <div className="image">
             <img src={image} alt={name} className="WorkerIcon" />
           </div>
           <div>
-            <div className="header">{name}</div>
+            <div className="nameheader">{name}</div>
           </div>
           <div className="extra-content">
             <span>
@@ -44,7 +46,7 @@ const WrestlerCard = ({wrestler, onUpdateLikeButton}) => {
             </span>
           </div>
         </div>
-      </Card>
+      </div>
   )
 }
 

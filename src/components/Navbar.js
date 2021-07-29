@@ -3,12 +3,13 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
   width: "100px",
+  height:"20px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
+  background: "white",
   variant: "dark",
   textDecoration: "none",
-  color: "white",
+  color: "green",
 };
 
 function Navbar() {
@@ -19,7 +20,7 @@ function Navbar() {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
        Home and Up and Comming Shows
@@ -29,7 +30,7 @@ function Navbar() {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
        Tomorrow's Stars
@@ -39,7 +40,7 @@ function Navbar() {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
         SponsorPage

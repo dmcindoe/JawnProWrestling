@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react"
 import WrestlerList from "./WrestlerList"
 import SubmitForm from "./SubmitForm"
-import { Container } from "semantic-ui-react"
 
 
 const WrestlerPage = () => {
@@ -28,8 +27,14 @@ const WrestlerPage = () => {
 return (
  
   <div className="StarsPage">
-    <Container>
-      <h1> Jawn Pro Wrestling</h1>
+      <h1 className="header"> Jawn Pro Wrestling</h1>
+      <h1> Comming Soon Book a Show For a Night Contets </h1>
+        <h2 className="showDate">Runner ups get to Ring Announce for a Match and be Time Keeper</h2>
+          <p>TBA</p>
+          <p> TBA</p>
+          
+
+
       <WrestlerList 
         wrestler={workerObj}
         onUpdateLikeButton={handleUpdateLikeButton}
@@ -37,7 +42,6 @@ return (
     <SubmitForm 
       onAddWorker={handleAddWorker}
     />
-    </Container>
   </div>
 )
 }
