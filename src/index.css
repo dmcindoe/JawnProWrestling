@@ -64,6 +64,8 @@ button:hover {
     font-style: normal;
     font-family:cursive;
     color: lawngreen;
+    background-color: black;
+    background-size: cover;
   }
 
   .container{
@@ -106,7 +108,7 @@ button:hover {
   }
 
   .ShowInfo{
-    color:rgb(255, 255, 255);
+    color:rgb(141, 254, 170);
     text-shadow: 2px 2px black;
   }
 

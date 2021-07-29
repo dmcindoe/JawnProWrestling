@@ -1,4 +1,3 @@
-
 {
   "wrestlers": [
     {
@@ -7,7 +6,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/34963522_2557429680949885_9137933841573347328_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=a4a2d7&_nc_ohc=xSAZqagncrAAX9Ri4Xs&_nc_ht=scontent-lga3-1.xx&oh=84f23caa383d6ab71f60604fa54bd9db&oe=612604B1",
       "finisher": "The Dirty Driver",
       "catchphrase": "Do it Dirty",
-      "likes": 6
+      "likes": 13,
+      "contacts": "Dbag@yahoo.com"
     },
     {
       "id": 2,
@@ -15,7 +15,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/82347675_2735568313147288_4844233530860896256_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=a4a2d7&_nc_ohc=mRaPxAqtENwAX9duxRs&_nc_ht=scontent-lga3-1.xx&oh=6eae74d4ddf4e5f47578adf8802c1c72&oe=612555A9",
       "finisher": "The Flat Crab",
       "catchphrase": "I always choose Violence",
-      "likes": 8
+      "likes": 12,
+      "contacts": "JVA@gmail.com, 743-666-9500"
     },
     {
       "id": 3,
@@ -23,7 +24,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/213295068_10227010312907467_3874318461910325272_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_ohc=IelSFYGsmlwAX9D95Ku&_nc_ht=scontent-lga3-1.xx&oh=a8325e3e09e37488481f0b2e4c20f1eb&oe=61048F36",
       "finisher": "Ceres Bomb",
       "catchphrase": "I'm the Alpha, and I will prove it",
-      "likes": 4
+      "likes": 5,
+      "contacts": "888-654-7322"
     },
     {
       "id": 4,
@@ -31,7 +33,8 @@
       "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/c0.0.1322.1322a/s552x414/90095074_3331035873577192_3358356016755376128_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=da31f3&_nc_ohc=tTrP9u4QH2EAX-lRRdG&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-iad3-2.xx&oh=b68af0bf9117f8174ac654e6fb67a100&oe=61234DCE",
       "finisher": "SuperKick",
       "catchphrase": "I Dare You to Try Me",
-      "likes": 4
+      "likes": 13,
+      "contacts": "DDDaveDoll@aol.com"
     },
     {
       "id": 5,
@@ -39,7 +42,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/203911623_4681481931861938_4788073527545614213_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=hjV1rG-1a6wAX-1uwpx&_nc_ht=scontent-lga3-1.xx&oh=d95d485e35ab62d2123aaf9ef96ab2d1&oe=61268021",
       "finisher": "Death Valley Driver",
       "catchphrase": "Time for a wreckoning",
-      "likes": 23
+      "likes": 23,
+      "contacts": "732-999-5432"
     },
     {
       "id": 6,
@@ -47,7 +51,8 @@
       "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/s552x414/210343153_354341692785838_8502896515503093147_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=da31f3&_nc_ohc=5qVTfS3llzUAX8eEZn8&_nc_ht=scontent-iad3-2.xx&oh=bbeca74cbaf257ee5e12bdebae79430c&oe=61233173",
       "finisher": "Top Rope Elbow Drop",
       "catchphrase": "Ill show you who is your Daddy Bivens",
-      "likes": 13
+      "likes": 13,
+      "contacts": "daddybivens@gmail.com"
     },
     {
       "id": 7,
@@ -55,7 +60,8 @@
       "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.18169-9/c21.0.414.414a/p552x414/10906000_864599930237531_8568450137773442453_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=da31f3&_nc_ohc=ykUtnqrXDVMAX843rKs&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-iad3-2.xx&oh=f7b4eeefc8783ac701c8ddabb48c3644&oe=6122C29A",
       "finisher": "TKMo",
       "catchphrase": "I'm Motastic",
-      "likes": 10
+      "likes": 10,
+      "contacts": "moisyourhero@hotmail.com"
     },
     {
       "id": 8,
@@ -63,7 +69,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/733855_526322830744208_2019919256_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=t0F7g8sM2VkAX-VTuIs&_nc_oc=AQld0WFg9E5NElbyPfJv861pOO_QrKz0W2IU0MNlqZOgArmo5H515HhaGEIVgF86gxBIMC7cOL8VwUmVWcpMtiKq&_nc_ht=scontent-lga3-1.xx&oh=3c1aa93958e56bb0c5ac50d95c9244c6&oe=6127006B",
       "finisher": "Double Enziguri",
       "catchphrase": "Always a good time to some Booty",
-      "likes": 15
+      "likes": 15,
+      "contacts": "stealyourstation@comcast.net"
     },
     {
       "id": 9,
@@ -71,7 +78,8 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/432237_2401751382762_850555302_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=d1b5-yko8CAAX9L6Mh4&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-lga3-1.xx&oh=ba87f12c4e6c4bba7c17cd4440460336&oe=6123BE48",
       "finisher": "Shooting Star Press",
       "catchphrase": "Aim to for the sky, and be like RV1",
-      "likes": 20
+      "likes": 20,
+      "contacts": "561-999-7777, Rv1@gmail.com"
     },
     {
       "id": 10,
@@ -79,7 +87,35 @@
       "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/218563344_204104485055352_3552000797221577129_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=W_Sx6p1bd_IAX_xLlZ8&tn=c1g498pFHb5CkfVo&_nc_ht=scontent-lga3-1.xx&oh=8d0ee3891aa791d2a87770c3fabd2b37&oe=6104C02E",
       "finisher": "Tiger Driver 89",
       "catchphrase": "I'm a Tiger, and a Moose",
-      "likes": 34
+      "likes": 34,
+      "contacts": "TMoose@yahoo.com"
+    },
+    {
+      "id": 11,
+      "name": "Kimber Lee",
+      "image": "http://www.onlineworldofwrestling.com/wp-content/uploads/2018/11/Kimer-Lee.jpg",
+      "finisher": "Texas Deathlock",
+      "catchphrase": "Im gonna Win",
+      "likes": 13,
+      "contacts": "KimberLee@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Ace Ventura",
+      "image": "https://www.looper.com/img/gallery/heres-where-you-can-watch-ace-ventura-2/l-intro-1624378446.jpg",
+      "finisher": "The Wachooti",
+      "catchphrase": "Alllllllriddeey Then",
+      "likes": 24,
+      "contacts": "ACE@gmail.com"
+    },
+    {
+      "id": 13,
+      "name": "Johnny Tsunami",
+      "image": "https://i.ytimg.com/vi/KN65bEIZr4o/maxresdefault.jpg",
+      "finisher": "pile driver",
+      "catchphrase": "\"get to higher ground!\"",
+      "likes": 29,
+      "contacts": "911"
     }
   ]
 }

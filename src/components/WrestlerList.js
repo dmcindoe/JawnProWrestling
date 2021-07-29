@@ -1,24 +1,20 @@
 import React from "react"
 import WrestlerCard from "./WrestlerCard"
 
-
-
-const WrestlerList = ({wrestler, onUpdateLikeButton}) => {
+const WrestlerList = ({ wrestler, onUpdateLikeButton }) => {
   const wrestlerCards = wrestler.map((worker) => (
-    <div className="NewTalentCards">
-      <WrestlerCard variant="outlined"
+      <WrestlerCard className="NewTalentCards" variant="outlined"
         key={worker.id}
         wrestler={worker}
         onUpdateLikeButton={onUpdateLikeButton}
        />
-    </div>
-))
+  ))
 
-return (
+  return (
   <div className="container" >
     {wrestlerCards}
   </div>
-  )}
+  )
+}
 
-  
 export default WrestlerList

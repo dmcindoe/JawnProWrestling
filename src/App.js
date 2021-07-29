@@ -5,9 +5,7 @@ import SponsorPage from "./components/SponsorPage"
 import Shows from "./components/Shows"
 import { Route, Switch } from "react-router-dom"
 
-
 const App = () => {
-
   return (
     <div className="App">
     <Navbar />
@@ -23,7 +21,7 @@ const App = () => {
       </Route>
     </Switch>
   </div>
-)
+  )
 }
 
 export default App
