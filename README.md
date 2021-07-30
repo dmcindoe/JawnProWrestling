@@ -7,11 +7,15 @@ All the Wrestler information information can be found in the `db.json` file.
 
 You can use `json-server` to create a RESTful API for our database.
 
+Fork then Clone this Repository.
+
 Run `npm install` to install our dependencies.
 
 Then, run `npm run server` to start up `json-server` on `http://localhost:4000`.
 
 In another tab, run `npm start` to start up our React app at `http://localhost:3000`.
+
+Or Just go to https://jawnprowrestling.herokuapp.com/ in your browser of Choice
 
 
 ## Project Goals
