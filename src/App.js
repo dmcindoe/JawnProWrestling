@@ -8,7 +8,7 @@ import { Route, Switch } from "react-router-dom"
 const App = () => {
   return (
     <div className="App">
-    <Navbar />
+    <Navbar className="Navbar" />
     <Switch>
       <Route exact path="/SponsorPage">
         <SponsorPage />

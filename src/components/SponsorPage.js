@@ -13,7 +13,7 @@ const SponsorPage = () => {
   return (
     <div>
         <h3 className="Sponsor">American Cocktail Club </h3>
-            <a className="link" href="https://www.americancocktailclub.com/?gclid=EAIaIQobChMI0u7LwOaF8gIVl-azCh2--QaHEAAYASAAEgICpPD_BwE">
+            <a className="link" href="https://www.americancocktailclub.com/?gclid=EAIaIQobChMI0u7LwOaF8gIVl-azCh2--QaHEAAYASAAEgICpPD_BwE" target="_blank"rel="noreferrer">
             Click Here...Check Out with the Code Jawn at Checkout for Extra Perks See Below
             </a>
             <p className="SponsorDetails"> Our 1st Sponsor is an at home Cocktail of the month subscription service.<br/>
@@ -24,7 +24,7 @@ const SponsorPage = () => {
             <img className="SponsorPic" src="https://cdn.filestackcontent.com/auto_image/cache=expiry:max/8IZ8bTOnQ7WAHbDn6QT5" alt="" />
         <p className="SponsorDetails">Warning Must be 21 Years or Older to Enjoy Alcohol and Aways Remember enjoy Responsibly.</p>
         <h3 className="Sponsor">Save Me Animal Rescue </h3>
-            <a className="link" href="https://savedme.org/">
+            <a className="link" href="https://savedme.org/" target="_blank"rel="noreferrer">
             Click Here..Find a Great furry new member of the family to bring Home to the family
             </a>
             <p className="SponsorDetails">  Our Second Sponsor is Savedme.org. They do great work finding great homes for great animals. <br/>

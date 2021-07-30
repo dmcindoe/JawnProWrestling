@@ -6,8 +6,8 @@ const linkStyles = {
   height: "20px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "white",
-  variant: "dark",
+  background: "black",
+  variant: "white",
   textDecoration: "none",
   color: "green"
 }
@@ -20,7 +20,7 @@ function Navbar () {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "black"
+          background: "white"
         }}
       >
        Home and Up and Comming Shows
@@ -30,7 +30,7 @@ function Navbar () {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "black"
+          background: "white"
         }}
       >
        {"Tomorrow's Stars"}
@@ -40,7 +40,7 @@ function Navbar () {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "black"
+          background: "white"
         }}
       >
         SponsorPage

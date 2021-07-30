@@ -125,6 +125,149 @@
       "catchphrase": "No one Rolls Higher then me",
       "likes": 1,
       "contacts": "420Life@gmail.com"
+    },
+    {
+      "id": 15,
+      "name": "CM Punk",
+      "image": "https://staticg.sportskeeda.com/wp-content/uploads/2017/01/gts-1485425892-800.jpg",
+      "finisher": "GTS",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 100,
+      "contacts": "ChicagoLife@gmail.com"
+    },
+    {
+      "id": 16,
+      "name": "Bryan Danielson",
+      "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/164363471_294412012050206_2869361347104192810_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=e3f864&_nc_ohc=VdX2CTIt41wAX8y3Plk&_nc_ht=scontent-lga3-1.xx&oh=17c1d3ad9162f5a7a1d2d29183726e25&oe=6129CE61",
+      "finisher": "Running Knee, Yes Lock",
+      "catchphrase": "Yes",
+      "likes": 120,
+      "contacts": "VeganPower@gmail.com"
+    },
+    {
+      "id": 17,
+      "name": "Thunder Rosa",
+      "image": "https://prowrestlingnewshub.com/wp-content/uploads/2020/12/Thunder-Rosa.jpg",
+      "finisher": "Fire Thunder Driver",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 90,
+      "contacts": "ThunderRosa@gmail.com"
+    },
+    {
+      "id": 18,
+      "name": "Serena Deeb",
+      "image": "https://pbs.twimg.com/profile_images/1396218622796865545/_SzUGoVZ.jpg",
+      "finisher": "STF",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 50,
+      "contacts": "ChicagoLife@gmail.com"
+    },
+    {
+      "id": 19,
+      "name": "The Murderhawk Monster Lance Archer",
+      "finisher": "The Blackout",
+      "image": "https://assets.usafootball.com/cms/2021-02/LanceArcher.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Powerhouse Will Hobbs",
+      "image": "https://www.mercurynews.com/wp-content/uploads/2021/01/Hobbs2.jpg",
+      "finisher": "Reverse Powerslam",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 21,
+      "name": "Brian Cage",
+      "image": "https://i2.wp.com/socaluncensored.com/wp/wp-content/uploads/2020/01/brian-cage-2-e1578806317474.jpg?fit=777%2C437",
+      "finisher": "Drill Claw",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 22,
+      "name": "Colt Cabana",
+      "image": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/124280864_218036616358481_853652647572838525_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=5ZR330LL7TsAX9cEqz-&_nc_ht=scontent-lga3-1.xx&oh=8b3bb74620e4db8b1d788fa9ef2fa0ae&oe=61271A3C",
+      "finisher": "The Boom Boom",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 23,
+      "name": "Eddie Kingston",
+      "image": "https://wrestlingworld.co/wp-content/uploads/2020/09/eddie-kingston-aew.jpg",
+      "finisher": "Rear Naked Choke",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 24,
+      "name": "Matt Sydal",
+      "image": "https://www.wrestlezone.com/assets/uploads/2009/09/file_189669_0_evan-bourne(3).jpg",
+      "finisher": "Shooting Star Press",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 25,
+      "name": "Tessa Blanchard",
+      "image": "https://cdn3.whatculture.com/images/2020/01/029f195971c34a58-1200x675.jpg",
+      "finisher": "Slingshot BackSuplex",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-327-2222"
+    },
+    {
+      "id": 26,
+      "name": "Su Yung",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTY2OTlkNWEtN2EwYS00YmVmLTk2MjctZWVkNzBhYzU4MTFiXkEyXkFqcGdeQXVyODQ0MTc2Mjg@._V1_.jpg",
+      "finisher": "The Panic Switch",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "666-666-4444"
+    },
+    {
+      "id": 27,
+      "name": "Harry Smith",
+      "image": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/9/8e/98e8f5ac-bb19-11e7-9783-77b5441d9e26/59f332cfd77f1.image.jpg",
+      "finisher": "Top Rope Powerslam",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "HartDungeonSurviver33@gmail.com"
+    },
+    {
+      "id": 28,
+      "name": "MJF",
+      "image": "https://img.bleacherreport.net/img/images/photos/003/883/151/5cf7ad995d841b97fa56f4be7be7bb18_crop_exact.jpg?w=1200&h=1200&q=75",
+      "finisher": "Kiss the Ring",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "Ill Call You, Don't Call Me"
+    },
+    {
+      "id": 29,
+      "name": "Darby Allen",
+      "image": "https://static.wixstatic.com/media/a47540_52e4a927090f439bb80bdff3e0f5d303~mv2.jpg/v1/fill/w_800,h_500,al_c,q_90/a47540_52e4a927090f439bb80bdff3e0f5d303~mv2.jpg",
+      "finisher": "Coffin Drop",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "StingsBestie@gmail.com"
+    },
+    {
+      "id": 30,
+      "name": "Sami Callahan",
+      "image": "https://culturedvultures.com/wp-content/uploads/2021/06/sami.jpg",
+      "finisher": "Piledriver",
+      "catchphrase": "No one Rolls Higher then me",
+      "likes": 40,
+      "contacts": "742-666-2222"
     }
+
+
   ]
 }
