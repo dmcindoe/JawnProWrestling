@@ -8,7 +8,7 @@ const WrestlerPage = () => {
   const [searchTerm, setSearchTerm] = useState("")
 
   useEffect(() => {
-    fetch("http://localhost:4000/wrestlers")
+    fetch(`${process.env.REACT_APP_API_URL}/wrestlers`)
       .then(r => r.json())
       .then(data => setWorkerObj(data))
   }, [])

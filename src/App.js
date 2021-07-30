@@ -10,14 +10,14 @@ const App = () => {
     <div className="App">
     <Navbar className="Navbar" />
     <Switch>
-      <Route exact path="/SponsorPage">
-        <SponsorPage />
-      </Route>
       <Route exact path="/Shows">
         <Shows />
       </Route>
       <Route exact path="/WrestlerPage">
         <WrestlerPage />
+      </Route>
+      <Route exact path="/SponsorPage">
+        <SponsorPage />
       </Route>
     </Switch>
   </div>

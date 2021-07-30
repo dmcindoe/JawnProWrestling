@@ -31,7 +31,7 @@ const SubmitForm = ({ onAddWorker }) => {
       contacts: formData.contacts
     }
 
-    fetch("http://localhost:4000/wrestlers", {
+    fetch(`${process.env.REACT_APP_API_URL}/wrestlers`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

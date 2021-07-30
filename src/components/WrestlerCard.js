@@ -8,7 +8,7 @@ const WrestlerCard = ({ wrestler, onUpdateLikeButton }) => {
       likes: wrestler.likes + 1
     }
 
-    fetch(`http://localhost:4000/wrestlers/${id}`, {
+    fetch(`${process.env.REACT_APP_API_URL}/wrestlers/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
