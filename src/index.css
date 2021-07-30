@@ -80,7 +80,7 @@ button:hover {
   .FeatPic{
     justify-self: center;
     height:fit-content;
-    width: fit-content;
+    width:50%;
     flex-wrap: wrap;
 
   }
