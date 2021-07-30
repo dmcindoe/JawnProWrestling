@@ -1,6 +1,6 @@
 import React from "react"
 
-const WrestlerCard = ({ wrestler, onUpdateLikeButton, handleAddWrestlerClick }) => {
+const WrestlerCard = ({ wrestler, onUpdateLikeButton }) => {
   const { id, name, image, finisher, catchphrase, likes } = wrestler
 
   function handleLikeClick () {

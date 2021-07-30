@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react"
 import WrestlerList from "./WrestlerList"
 import SubmitForm from "./SubmitForm"
+import Search from "./Search"
 
 const WrestlerPage = () => {
   const [workerObj, setWorkerObj] = useState([])
+  const [searchTerm, setSearchTerm] = useState("")
 
   useEffect(() => {
     fetch("http://localhost:4000/wrestlers")
@@ -22,17 +24,22 @@ const WrestlerPage = () => {
     setWorkerObj(UpdatedWorkers)
   }
 
+  const WrestlerssToDisplay = workerObj.filter((worker) =>
+    worker.name.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+
   return (
 
   <div className="StarsPage">
       <h1 className="header"> {"Jawn Pro Wrestling Star's of Tomorrow"}</h1>
-      <h1> Comming Soon Book a Show For a Night Contests </h1>
-        <h2 className="showDate">Runner ups get to Ring Announce for a Match and be Time Keeper</h2>
-          <p>TBA</p>
-          <p>TBA</p>
+      <h1 className="header"> Search through the potential New Stars Below. Just Enter The Name You Seek</h1>
+        <Search
+    searchTerm={searchTerm}
+    onChangeSearch={setSearchTerm}
+     />
 
       <WrestlerList
-        wrestler={workerObj}
+        wrestler={WrestlerssToDisplay}
         onUpdateLikeButton={handleUpdateLikeButton}
     />
     <SubmitForm
