@@ -140,3 +140,8 @@ button:hover {
   background-size: auto;
 
 }
+
+.prompt{
+  height:25px;
+  width:250px
+}
