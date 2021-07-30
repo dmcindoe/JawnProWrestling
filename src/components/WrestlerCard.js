@@ -1,6 +1,6 @@
 import React from "react"
 
-const WrestlerCard = ({ wrestler, onUpdateLikeButton }) => {
+const WrestlerCard = ({ wrestler, onUpdateLikeButton, handleAddWrestlerClick }) => {
   const { id, name, image, finisher, catchphrase, likes } = wrestler
 
   function handleLikeClick () {
@@ -25,7 +25,11 @@ const WrestlerCard = ({ wrestler, onUpdateLikeButton }) => {
         { position: "side", color: "lightgreen" }}>
         <div className="Card">
           <div className="image">
-            <img src={image} alt={name} className="WorkerIcon" />
+            <img
+            src={image}
+            alt={name}
+            className="WorkerIcon"
+            />
           </div>
           <div>
             <div className="nameheader">{name}</div>
@@ -34,7 +38,7 @@ const WrestlerCard = ({ wrestler, onUpdateLikeButton }) => {
             <span>
               <button className="icon" onClick={handleLikeClick}>
                 Likes {likes}
-                </button>
+              </button>
              <p>
               Finsher: {finisher}
              </p>
